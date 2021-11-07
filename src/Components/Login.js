@@ -1,9 +1,7 @@
 import React from "react";
 import { Button } from "@material-ui/core";
-// import { Fade } from "react-reveal";
 import "./Login.css";
-// import loginimage from "./logo.png";
-import { auth, provider } from "./firebase";
+import { auth, provider } from "../firebase";
 
 const Login = () => {
   const login = () => {
