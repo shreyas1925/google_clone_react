@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 import Search from "./Search";
 
 const Home = () => {
-  const user = useSelector(selectUser);
+  // const user = useSelector(selectUser);
 
   return (
     <div className="homes">
@@ -22,7 +22,7 @@ const Home = () => {
           <Link to="/about">Gmail</Link>
           <Link to="/about">Images</Link>
           <AppsIcon />
-          <Avatar src={user.photo} onClick={() => auth.signOut()} />
+          {/* <Avatar src={user.photo} onClick={() => auth.signOut()} /> */}
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { useStatevalue } from "../StateProvder";
+import { useStatevalue } from "../StateProvider";
 import Response from "./responses";
 import "./searchpage.css";
 import useGoogleSearch from "./useGoogleSearch";
